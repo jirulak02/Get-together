@@ -9,7 +9,7 @@ function AllMeetupsPage() {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      'https://react-course-project2-633a6-default-rtdb.europe-west1.firebasedatabase.app/meetups.json'
+      '<<FIREBASE REFERENCE URL>>/meetups.json'
     ).then(response => {
       return response.json();
     }).then(data => {
